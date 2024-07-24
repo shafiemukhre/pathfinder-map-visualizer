@@ -1,0 +1,38 @@
+.grid {
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.node {
+  width: 25px;
+  height: 25px;
+  aspect-ratio: 1; // TODO: this doesn't work
+  border: 1px solid lightblue;
+}
+
+.node-start {
+  background-color: red;
+}
+
+.node-finish {
+  background-color: green;
+}
+
+.node-visited {
+  background-color: lightseagreen;
+}
+
+.node-shortest-path {
+  background-color: yellow;
+}
+
+.node-wall {
+  background-color: rgb(12, 53, 71);
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
