@@ -1,4 +1,4 @@
-# Pathfinder Visualizer on a Map
+# Pathfinding Algorithms Visualizer on a Map
 
 A web app to visualize several Single-Source Shortest Path (SSSP) algorithms.
 
